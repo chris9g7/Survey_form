@@ -60,9 +60,10 @@ h1 {
 
 .footer #same:hover {
     background-color: #9115b3;
+    
     cursor: pointer;
     color: #fff;
-    
+
 }
 
 
