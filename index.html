@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form:</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1> <u>Survey Form:</u> </h1>
+
+
+        <hr>
+
+        <form action="#">
+            <div class="content">
+                <div>
+                    <h2>Customer Name</h2>
+                    <label for="firstname">Enter Your First Name :
+                        <br><br>
+                    </label>
+                    <input class="curve" type="text" name="firstname" id="firstname">
+                    <br><br>
+                    <label for="lastname">Enter Your last Name :
+                        <br><br>
+                    </label>
+                    <input class="curve" type="text" name="lastname" id="lastname">
+                </div>
+
+                <div>
+                    <h2>Address</h2>
+                    <label for="street_add">Street Address <br><br></label>
+
+                    <input class="curve" type="text" name="Address" id="street_add" maxlength="50">
+                    <br><br>
+                    <label for="street_add2">Street Address Line 2 </label>
+                    <br><br>
+                    <input class="curve" type="text" name="Address_2" id="street_add2" min="50" max="300">
+                    <br><br>
+                    <label for="city"> City
+                        <br><br>
+                    </label>
+                    <input class="curve" type="text" name="cityname" id="city">
+                    <br><br>
+                    <label for="State"> State </label>
+                    <br><br>
+                    <input class="curve" type="text" name="state_name" id="State">
+                    <br><br>
+
+                    <label for="zip">zip</label> <br><br>
+                    <input class="curve" type="number" name="zip" id="zip">
+
+                    <br><br><br>
+                    <label for="sc">Select Coutry</label> <br><br>
+                    <input class="curve" type="text" name="select country" id="sc" placeholder="India">
+
+                </div>
+                <div>
+                    <h2>Contact</h2>
+                    <label for="ph">Phone</label> <br><br>
+                    <input class="curve" type="number" name="Phone" id="ph">
+                    <br><br>
+
+                    <label for="email">Email</label> <br><br>
+                    <input class="curve" type="email" name="email" id="email">
+                </div>
+
+                <div>
+                    <h2>Personal Details</h2>
+                    <input type="radio" name="gender" id="M">
+                    <label for="M">Male</label>
+                    <br><br>
+                    <input type="radio" name="gender" id="F">
+                    <label for="F">Female</label>
+                    <br><br>
+                    <input type="radio" name="gender" id="O">
+                    <label for="O">Other</label>
+
+
+                </div>
+
+
+                <div>
+                    <br>
+                    <h2>Ratings✨</h2>
+                    <div>
+                        <span>Rating 1:</span>
+                        <input type="radio" name="rating" id="Bad">
+                        <label for="Bad">Bad</label>
+
+                        <input type="radio" name="rating" id="Good">
+                        <label for="Good">Good</label>
+
+                        <input type="radio" name="rating" id="Excellent">
+                        <label for="Excellent">Excellent</label>
+
+
+
+                    </div>
+                    <br><br>
+
+                    <div>
+                        <span>Rating 2:</span>
+                        <input type="radio" name="rating" id="B">
+                        <label for="B">Bad</label>
+
+                        <input type="radio" name="rating" id="G">
+                        <label for="G">Good</label>
+
+                        <input type="radio" name="rating" id="E">
+                        <label for="E">Excellent</label>
+
+
+
+                    </div>
+                    <br><br>
+                    <div>
+                        <span>Rating 3:</span>
+                        <input type="radio" name="rating" id="Bd">
+                        <label for="Bd">Bad</label>
+
+                        <input type="radio" name="rating" id="Gd">
+                        <label for="Gd">Good</label>
+
+                        <input type="radio" name="rating" id="Excel">
+                        <label for="Excel">Excellent</label>
+
+                    </div>
+
+                </div>
+                <br><br>
+
+                <div>
+                    <label for="select">How Did you hear about us? </label>
+                    <br><br>
+                    <select class="curve" name="select_option" id="select">
+                        <option value="Google">Google</option>
+                        <option value="friends">friends</option>
+                        <option value="Advetisement">Advetisement</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="">Would you visit again?</label>
+                    <br><br>
+
+                    <input type="radio" name="rating" id="Yes">
+                    <label for="Yes">Yes</label>
+
+                    <input type="radio" name="rating" id="No">
+                    <label for="No">No</label>
+
+                    <input type="radio" name="rating" id="Maybe">
+                    <label for="Maybe">Maybe</label>
+
+                    <br><br>
+
+
+                    <textarea class="curve" name="Feedback" id="Feedback" cols="20" rows="5"> </textarea>
+                    <br><label for="Feedback">Feedback</label>
+
+                    <br><br>
+
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Sign up me for email updates</label>
+
+                </div>
+
+                <br>
+
+                <div class="footer">
+
+                    <input type="reset" value="Reset" class="curve" id="same">
+                    <br><br>
+
+                    <input type="submit" value="Submit" class="sub">
+                </div>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
